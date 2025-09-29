@@ -1,4 +1,5 @@
 # Trinity Car Wash Website
+# Modern, Interactive, and Image-Rich Website
 
 ## Student Information
 - **Name**: Tristyn Aaron Chetty
@@ -8,7 +9,12 @@
 - **Institution**: The Independent Institute of Education
 
 ## Project Overview
-This project involves designing and developing a professional website for Trinity Car Wash, a family-owned car wash business established in 2012 in Clayfield, Phoenix. The website aims to provide an online presence, enable service bookings, and reduce on-site waiting times through an online queue system.
+This project is a modern, interactive, and image-rich website for Trinity Car Wash, a family-owned business in Clayfield, Phoenix. The site features:
+- Custom local images for all services and sections
+- Animated, interactive images and logo
+- Clean, aesthetic layouts with responsive design
+- Easy navigation and booking
+- All content and images are user-managed and locally stored
 
 ## Website Goals and Objectives
 ### Goals:
@@ -24,17 +30,17 @@ This project involves designing and developing a professional website for Trinit
 
 ## Key Features and Functionality
 ### Pages:
-- **Homepage**: Promotional banners, service highlights, call-to-action
-- **About Us**: Company history, mission, vision, and values
-- **Services**: Detailed service packages and pricing
-- **Book a Service**: Online booking form with date/time selection
-- **Contact**: Location information, operating hours, contact details
+- **Homepage**: Animated hero image, service highlights, call-to-action
+- **About Us**: Company history, mission, vision, values, and animated background
+- **Services**: Each service features a user-supplied, animated image
+- **Book a Service**: Clean booking form, no unnecessary images
+- **Contact**: Location, hours, contact details, and animated images
 
 ### Functionality:
-- Mobile-friendly responsive design
-- Online booking system
-- Queue status updates (future implementation)
-- Automated booking confirmations (future implementation)
+- Fully responsive, modern UI
+- All images are animated and interactive (pop-in, hover effects)
+- Only user-uploaded images are used (no external images)
+- Clean, minimal, and accessible HTML/CSS
 
 ## Timeline and Milestones
 - **Week 1-2**: Research and planning (Completed)
@@ -43,13 +49,12 @@ This project involves designing and developing a professional website for Trinit
 - **Week 6**: Testing and deployment (Future)
 
 ## Part 1 Details
-This initial submission includes:
-- Complete website planning and research
-- Sitemap and file structure
-- Basic HTML structure for all 5 required pages
-- Semantic HTML tags implementation
-- Functional navigation across all pages
-- Content integration based on company research
+This submission includes:
+- Modern, animated, and interactive HTML/CSS for all 5 pages
+- All images are user-supplied and locally referenced
+- Animated logo and hero images
+- No unnecessary or duplicate code
+- Fully accessible and responsive design
 
 ## Sitemap
 Homepage (index.html)
@@ -78,6 +83,16 @@ Homepage (index.html)
 text
 
 ## Changelog
+
+### [1.1.0] - 2025-09-29
+**Modernization & Image/Animation Overhaul**
+- All images are now user-uploaded and locally referenced
+- Animated pop-in and hover effects for all images and logo
+- Cleaned up all unnecessary code and removed all unused images
+- Improved layout and visual hierarchy for all pages
+- Enhanced About page with animated background and modern structure
+- Booking page is now image-free for clarity
+- Contact and Services pages feature only user-supplied, animated images
 
 ### [1.0.0] - 2025-08-27
 **Initial Release - Part 1 Completion**

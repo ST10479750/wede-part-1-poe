@@ -4,43 +4,81 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Trinity Car Wash - Home</title>
+        <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <!-- HEADER -->
     <header>
-        <h1>Trinity Car Wash</h1>
-        <p>Family-owned since 2012</p>
+        <div class="header-flex fade-in">
+            <img src="images/IMG_20250708_200606_920.webp" alt="Trinity Car Wash Logo" class="logo-img">
+            <div class="header-title">
+                <h1>Trinity Car Wash</h1>
+                <p class="subtitle">Where Clean Cars & Happy People Shine!</p>
+            </div>
+        </div>
     </header>
-
-    <!-- NAVIGATION -->
     <nav>
         <a href="index.html">Home</a>
-        <a href="about.html">About Us</a>
+        <a href="about.html">About</a>
         <a href="services.html">Services</a>
-        <a href="enquiry.html">Book a Service</a>
+        <a href="enquiry.html">Book</a>
         <a href="contact.html">Contact</a>
     </nav>
-
-    <!-- MAIN CONTENT -->
     <main>
-        <h2>Welcome to Trinity Car Wash</h2>
-        <p>Premium Hand Wash & Auto Valet in Phoenix</p>
-        <p>Quality you can trust since 2012</p>
-        
-        <h3>Our Services</h3>
-        <ul>
-            <li>Basic Car Wash</li>
-            <li>Full Valet Service</li>
-            <li>Interior Detailing</li>
-            <li>Fleet Services</li>
-        </ul>
-        
-        <a href="enquiry.html">Book Now</a>
+        <section class="hero pop-in">
+            <div class="hero-text white-text">
+                <h2>Welcome to Trinity Car Wash</h2>
+                <p class="lead">Ready for a car wash that’s actually fun? We’re all about shiny cars, big smiles, and a little bit of magic in every wash. Come join the clean car party!</p>
+                <ul>
+                    <li>Super Sudsy Hand Washes</li>
+                    <li>Valet & Fleet Fun</li>
+                    <li>Interior Deep Clean Groove</li>
+                    <li>Paint & Upholstery Wow</li>
+                </ul>
+                <a href="enquiry.html" class="button">Book Your Wash</a>
+            </div>
+            <div class="hero-image">
+                <img src="images/20250707_074915.jpg" alt="Welcome to Trinity Car Wash" class="img-responsive hero-img-fit hero-img-animate">
+            </div>
+        </section>
+        <section class="two-column">
+            <div class="slide-in-left">
+                <h3>Why Trinity?</h3>
+                <ul>
+                    <li>Our team is fun, fast, and friendly!</li>
+                    <li>Eco-friendly bubbles for a greener clean</li>
+                    <li>We treat every car like a superstar</li>
+                    <li>Comfy waiting lounge with Wi-Fi & coffee</li>
+                </ul>
+            </div>
+            <div class="slide-in-right">
+                <h3>What We Do</h3>
+                <ul>
+                    <li>Express Hand Washes</li>
+                    <li>Full Valet & Detailing</li>
+                    <li>Interior Deep Clean</li>
+                    <li>Fleet & Corporate Packages</li>
+                </ul>
+            </div>
+        </section>
+        <section class="card center pop-in">
+            <h3>What Our Fans Say</h3>
+            <blockquote>“I brought my car for a wash and left with a smile! The team is awesome.”<br><span style="color:#eebbc3;">– Priya M.</span></blockquote>
+            <blockquote>“Best car wash in Durban! My kids love the waiting area games.”<br><span style="color:#eebbc3;">– Sibusiso N.</span></blockquote>
+        </section>
+        <section class="two-column">
+            <div class="fade-in">
+                <h3>Find Us</h3>
+                <p>Clayfield Drive, Phoenix, Durban<br>Open Mon–Sat, ample parking for all!</p>
+            </div>
+            <div class="bounce-in">
+                <h3>Contact & Social</h3>
+                <p><strong>Phone:</strong> (031) 000-0000<br><strong>Email:</strong> info@trinitycarwash.co.za</p>
+                <p>Follow us on <a href="#" style="color:#232946;font-weight:600;">Facebook</a> for updates, fun, and giveaways!</p>
+            </div>
+        </section>
     </main>
-
-    <!-- FOOTER -->
-    <footer>
-        <p>&copy; 2025 Trinity Car Wash. Clayfield, Phoenix, Durban.</p>
+    <footer class="fade-in">
+        <p>&copy; 2025 Trinity Car Wash. All rights reserved. | Clayfield, Phoenix, Durban</p>
     </footer>
 </body>
 </html>

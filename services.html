@@ -5,52 +5,82 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Our Services - Trinity Car Wash</title>
 </head>
+    <link rel="stylesheet" href="style.css">
+</head>
 <body>
     <header>
-        <h1>Trinity Car Wash</h1>
-        <p>Family-owned since 2012</p>
+        <div class="header-flex fade-in">
+            <img src="images/IMG_20250708_200606_920.webp" alt="Trinity Car Wash Logo" class="logo-img">
+            <div class="header-title">
+                <h1>Our Services</h1>
+                <p class="subtitle">Car Care, The Fun Way!</p>
+            </div>
+        </div>
     </header>
-
     <nav>
         <a href="index.html">Home</a>
-        <a href="about.html">About Us</a>
+        <a href="about.html">About</a>
         <a href="services.html">Services</a>
-        <a href="enquiry.html">Book a Service</a>
+        <a href="enquiry.html">Book</a>
         <a href="contact.html">Contact</a>
     </nav>
-
     <main>
-        <h2>Our Service Packages</h2>
-        
-        <h3>Basic Wash - R80</h3>
-        <ul>
-            <li>Exterior Wash</li>
-            <li>Interior Vacuum</li>
-            <li>Window Cleaning</li>
-            <li>Quick Dry</li>
-        </ul>
-        
-        <h3>Full Valet - R150</h3>
-        <ul>
-            <li>Everything in Basic Wash</li>
-            <li>Interior Wipe Down</li>
-            <li>Tire Dressing</li>
-            <li>Air Freshener</li>
-        </ul>
-        
-        <h3>Premium Detail - R250</h3>
-        <ul>
-            <li>Everything in Full Valet</li>
-            <li>Wax Treatment</li>
-            <li>Upholstery Shampoo</li>
-            <li>Engine Bay Clean</li>
-        </ul>
-        
-        <a href="enquiry.html">Book Your Service Now</a>
+        <section class="two-column mb-2">
+            <div class="slide-in-left">
+                <h3>Express Hand Wash <span style="color:#888;font-weight:400;">R80</span></h3>
+                <ul>
+                    <li>Exterior Wash & Dry</li>
+                    <li>Interior Vacuum</li>
+                    <li>Window & Mirror Clean</li>
+                </ul>
+                <img src="images/20250824_145617.jpg" alt="Express Hand Wash" class="img-responsive express-img-fit">
+            </div>
+            <div class="slide-in-right">
+                <h3>Full Valet <span style="color:#888;font-weight:400;">R150</span></h3>
+                <ul>
+                    <li>All Express Hand Wash features</li>
+                    <li>Interior Wipe Down</li>
+                    <li>Tire & Trim Dressing</li>
+                    <li>Air Freshener</li>
+                </ul>
+                <div class="valet-img-grid">
+                    <img src="images/20250712_073035.jpg" class="img-responsive express-img-fit valet-img" alt="Full Valet">
+                </div>
+            </div>
+        </section>
+        <section class="two-column">
+            <div class="bounce-in">
+                <h3>Premium Detail <span style="color:#888;font-weight:400;">R250</span></h3>
+                <ul>
+                    <li>All Full Valet features</li>
+                    <li>Wax & Paint Protection</li>
+                    <li>Upholstery Shampoo</li>
+                    <li>Engine Bay Clean</li>
+                </ul>
+                <img src="images/20250810_174948.jpg" class="img-responsive express-img-fit">
+            </div>
+            <div class="fade-in">
+                <h3>Fleet & Corporate</h3>
+                <ul>
+                    <li>Custom packages for businesses</li>
+                    <li>Priority scheduling</li>
+                    <li>Monthly billing options</li>
+                </ul>
+                <img src="images/20250728_075404.jpg" class="img-responsive express-img-fit valet-img" alt="Fleet Services">
+            </div>
+        </section>
+        <section class="card center pop-in">
+            <h3>Want Something Extra?</h3>
+            <p>We love a challenge! Ask us about custom detailing, paint protection, or business fleet solutions. Let’s make your car the star!</p>
+        </section>
+            </div>
+        </section>
+        <div class="center mt-2">
+            <a href="enquiry.html" class="button">Book Your Service Now</a>
+        </div>
     </main>
-
     <footer>
-        <p>&copy; 2025 Trinity Car Wash. Clayfield, Phoenix, Durban.</p>
+        <p>&copy; 2025 Trinity Car Wash. All rights reserved. | Clayfield, Phoenix, Durban</p>
     </footer>
 </body>
 </html>

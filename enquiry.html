@@ -5,73 +5,70 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Book a Service - Trinity Car Wash</title>
 </head>
+    <link rel="stylesheet" href="style.css">
+</head>
 <body>
     <header>
-        <h1>Trinity Car Wash</h1>
-        <p>Family-owned since 2012</p>
+        <div class="header-flex fade-in">
+            <img src="images/IMG_20250708_200606_920.webp" alt="Trinity Car Wash Logo" class="logo-img">
+            <div class="header-title">
+                <h1>Book a Service</h1>
+                <p class="subtitle">Booking a Clean Car is Fun!</p>
+            </div>
+        </div>
     </header>
-
     <nav>
         <a href="index.html">Home</a>
-        <a href="about.html">About Us</a>
+        <a href="about.html">About</a>
         <a href="services.html">Services</a>
-        <a href="enquiry.html">Book a Service</a>
+        <a href="enquiry.html">Book</a>
         <a href="contact.html">Contact</a>
     </nav>
-
     <main>
-        <h2>Book Your Service</h2>
-        <p>Fill out the form below to book your car wash service</p>
-        
-        <form>
-            <h3>Personal Information</h3>
+        <section class="center mb-2 pop-in">
+            <h2>Book Your Car Wash</h2>
+            <p>Fill in the form below and our team will confirm your booking shortly. For urgent bookings, call us directly!<br>We can’t wait to make your car sparkle!</p>
+            <!-- Image removed as requested -->
+        </section>
+    <form class="two-column bounce-in" style="gap:2em;align-items:flex-start;">
             <div>
-                <label>Full Name:</label>
-                <input type="text" required>
+                <h3>Personal Details</h3>
+                <label for="name">Full Name</label>
+                <input id="name" name="name" type="text" required>
+                <label for="phone">Phone Number</label>
+                <input id="phone" name="phone" type="tel" required>
+                <label for="email">Email Address</label>
+                <input id="email" name="email" type="email">
             </div>
             <div>
-                <label>Phone Number:</label>
-                <input type="tel" required>
-            </div>
-            <div>
-                <label>Email Address:</label>
-                <input type="email">
-            </div>
-            
-            <h3>Service Details</h3>
-            <div>
-                <label>Select Service:</label>
-                <select required>
+                <h3>Booking Details</h3>
+                <label for="service">Select Service</label>
+                <select id="service" name="service" required>
                     <option value="">Choose a service</option>
-                    <option value="basic">Basic Wash - R80</option>
+                    <option value="basic">Express Hand Wash - R80</option>
                     <option value="valet">Full Valet - R150</option>
                     <option value="premium">Premium Detail - R250</option>
                 </select>
+                <label for="vehicle">Vehicle Type</label>
+                <input id="vehicle" name="vehicle" type="text">
+                <label for="date">Preferred Date</label>
+                <input id="date" name="date" type="date" required>
+                <label for="time">Preferred Time</label>
+                <input id="time" name="time" type="time" required>
+                <label for="instructions">Special Instructions</label>
+                <textarea id="instructions" name="instructions"></textarea>
             </div>
-            <div>
-                <label>Vehicle Type:</label>
-                <input type="text">
+            <div class="center" style="grid-column:1/-1;">
+                <button type="submit">Submit Booking</button>
             </div>
-            <div>
-                <label>Preferred Date:</label>
-                <input type="date" required>
-            </div>
-            <div>
-                <label>Preferred Time:</label>
-                <input type="time" required>
-            </div>
-            
-            <div>
-                <label>Special Instructions:</label>
-                <textarea></textarea>
-            </div>
-            
-            <button type="submit">Submit Booking</button>
         </form>
+        <section class="card center fade-in">
+            <h3>Need Help?</h3>
+            <p>Call us at (031) 000-0000 or email info@trinitycarwash.co.za for assistance with your booking. We’re always happy to chat!</p>
+        </section>
     </main>
-
     <footer>
-        <p>&copy; 2025 Trinity Car Wash. Clayfield, Phoenix, Durban.</p>
+        <p>&copy; 2025 Trinity Car Wash. All rights reserved. | Clayfield, Phoenix, Durban</p>
     </footer>
 </body>
 </html>
